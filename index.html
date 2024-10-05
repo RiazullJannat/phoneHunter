@@ -16,7 +16,7 @@
     <main class="container">
         <section>
             <div class="mb-3 w-50">
-                <input id="search-field" type="email" class="form-control" id="exampleFormControlInput1"
+                <input id="search-field" type="text" class="form-control" 
                     placeholder="search your phone">
                 <div id="btn-search" class="btn btn-primary">Search</div>
             </div>
@@ -26,10 +26,13 @@
             <div id="phones-container" class="row row-cols-1 row-cols-md-3 g-4">
 
             </div>
+            <div id="all-phones-container" class="row row-cols-1 row-cols-md-3 g-4 d-none">
+
+            </div>
             <div id="no-found-message" class="mt-4 d-none">
                 <h3 class="text-warning">No Phone Found. Please try a new search</h3>
             </div>
-            <div id="show-all" class="text-center d-none">
+            <div id="show-all" class="text-center d-none my-5 ">
                 <div id="btn-show-all" class="btn btn-primary">Show All</div>
             </div>
         </section>
