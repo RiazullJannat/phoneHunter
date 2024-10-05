@@ -1,5 +1,5 @@
 const loader=document.getElementById('loader');
-const mainURL= " https://openapi.programmingd-hero.com/api/phones?search="
+const mainURL= " https://openapi.programming-hero.com/api/phones?search="
 const search=document.getElementById('search-field');
 const showAll=document.getElementById('show-all');
 const noFound=document.getElementById('no-found-message');
